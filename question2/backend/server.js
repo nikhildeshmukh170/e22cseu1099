@@ -10,7 +10,8 @@ app.use(cors());
 app.use(express.json());
 
 const API_BASE = "http://20.244.56.144/evaluation-service";
-const TOKEN = process.env.REACT_APP_API_TOKEN;
+const DEFAULT_TOKEN = "your-static-fallback-token";
+const TOKEN = process.env.REACT_APP_API_TOKEN || DEFAULT_TOKEN;
 
 // Check if token is loaded
 if (!TOKEN) {
@@ -40,6 +41,13 @@ app.get("/numbers/:type", async (req, res) => {
 
     res.json(response.data);
   } catch (error) {
+    if (error.response?.status === 401) {
+        alert("⚠️ Invalid or expired token. Please update your token.");
+      } else if (error.name === "CanceledError") {
+        console.warn("⏱ Request timed out");
+      } else {
+        console.error("❌ Unexpected error:", error);
+      }
     console.error("❌ Error fetching from external API:");
     console.error("Status:", error.response?.status);
     console.error("Data:", error.response?.data);
