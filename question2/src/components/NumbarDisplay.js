@@ -18,7 +18,7 @@ const NumberDisplay = ({ prevState, numbers, avg }) => {
         </div>
 
         <div className="data-card">
-          <h3>📥 Current Window</h3>
+          <h3>🟢 Current Window</h3>
           <div className="data-content">{JSON.stringify(displayCurrent)}</div>
         </div>
 
