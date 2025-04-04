@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
-import "./NumberFetcher.css"; // Your custom CSS
+import "./NumberFetcher.css";
 
 const NumberFetcher = () => {
   const [numbers, setNumbers] = useState([1, 2, 3, 4, 5]);
@@ -24,7 +24,7 @@ const NumberFetcher = () => {
     if (!apiUrls[type]) return;
 
     setActiveBtn(type);
-    setError(""); // clear previous errors
+    setError("");
 
     try {
       const controller = new AbortController();
