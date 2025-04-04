@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
-import "./NumberFetcher.css"; // Optional styling
+import "./NumberFetcher.css";
 
 const NumberFetcher = () => {
   const [numbers, setNumbers] = useState([]);
