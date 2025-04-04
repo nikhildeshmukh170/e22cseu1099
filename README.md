@@ -1,11 +1,19 @@
 # e22cseu1099
 
-Question2  ← for the average calculator microservice
+#Question2  ← for the average calculator microservice
+
+<-----------!----------->
 
 # Output Image:
-![image](https://github.com/user-attachments/assets/5bb32456-0933-4926-81fb-c5079a38175d)
+![image](https://github.com/user-attachments/assets/6e835091-1e1f-4568-a763-d2308ca81778)
+
+![image](https://github.com/user-attachments/assets/4e6af38f-f2f2-42c2-9698-6e67547b42e3)
+
+
+<-----------!------------>
 
 # After API Error:
 
-![image](https://github.com/user-attachments/assets/9a535da0-cf33-41bd-a915-682801de082f)
+![image](https://github.com/user-attachments/assets/7ce82927-9bb6-4e2b-a5a1-13b174b6ce12)
+
 
