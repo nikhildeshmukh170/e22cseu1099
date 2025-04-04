@@ -116,4 +116,17 @@
     color: #f59e0b;
     text-align: center;
   }
+
+  .fetcher-error {
+    color: red;
+    background-color: #ffe6e6;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px 0;
+    text-align: center;
+    font-weight: 500;
+  }
+  
+  
+  
   
