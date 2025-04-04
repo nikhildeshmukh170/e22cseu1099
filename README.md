@@ -1,3 +1,3 @@
 # e22cseu1099
 
-Question1/    ← for the average calculator microservice
+Question2  ← for the average calculator microservice
